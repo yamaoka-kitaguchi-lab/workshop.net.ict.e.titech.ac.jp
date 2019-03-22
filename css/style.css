@@ -1,0 +1,39 @@
+* {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background-image: url('/img/tech-chan.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+h2 {
+  border-bottom: 2px dashed;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+table#announce_table > tbody > tr > th {
+  padding-right: 0;
+  min-width: 110px;
+}
+
+dl#attendance-fee > dt {
+  font-weight: inherit;
+  float: left;
+}
+
+dl#attendance-fee > dd {
+  margin-bottom: 0;
+  margin-left: 70px;
+}
