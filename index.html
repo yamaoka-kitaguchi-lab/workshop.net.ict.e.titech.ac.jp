@@ -19,13 +19,13 @@
   </head>
   <body>
     <div class="container">
-      <section class="my-4">
+      <section class="my-4" id="header">
         <h1>.net Spring Workshop 2019</h1>
         <p class="lead">Welcome to Yamaoka-Kitaguchi Lab., Tokyo Tech!</p>
         <hr>
         <p>.net Spring Workshop（通称：春ゼミ） は，東京工業大学 山岡・北口研究室の主催する研究ワークショップです．<br>はじめて本格的な研究に取り組む学部4年生に向けて，修士・博士の先輩方が昨年度1年間の研究成果を発表します．</p>
       </section>
-      <section class="my-4">
+      <section class="my-4" id="announce">
         <h2 class="mb-3">開催案内</h2>
         <p>ワークショップのみ，懇親会のみのご参加も歓迎しています．<br>何かご不明な点がございましたら，お気軽に<a href="mailto:workshop-inquiry@net.ict.e.titech.ac.jp">運営事務局</a>までお問い合わせください．</p>
         <table class="table mb-0" id="announce_table">
@@ -63,7 +63,7 @@
           </tbody>
         </table>
       </section>
-      <section class="my-4">
+      <section class="my-4" id="program">
         <h2 class="mb-3">プログラム</h2>
         <p>敬称略</p>
         <div class="row my-3">
@@ -143,20 +143,21 @@
           <div class="col-sm-10 col-md-5">2次会</div>
           <div class="col-sm-12 col-md-5 text-right"></div>
         </div>
+        <p class="text-right"><a id="print_program" role="button" href="">プログラムを印刷する</a></p>
       </section>
-      <section class="my-4">
+      <section class="my-4" id="detail">
         <h2 class="mb-3">発表詳細</h2>
         <p>発表15分，質疑5分の持ち時間20分です．<br>予鈴（ベル）のタイミングは開始後13分，15分，20分の3回です．<br>時間を守ってのご発表をお願いします．</p>
         <p>また，会場のプロジェクタはアナログRGB（D-Sub15ピン）のみ対応しています．<br>事務局の方でも各種変換コネクタは用意しますが，各自で普段ご使用のものをご持参ください．（特に macOS/*nix 利用者）</p>
       </section>
-      <section class="my-4">
+      <section class="my-4" id="update">
         <h2 class="mb-3">更新履歴</h2>
         <p>詳細は<a href="https://github.com/yamaoka-kitaguchi-lab/spring-workshop/commits/master">yamaoka-kitaguchi-lab/spring-workshop</a>で確認できます．</p>
         <ul id="github_commit_log">
           <li id="builderror"><strong>エラー:</strong> お使いのブラウザでJavaScriptの実行が許可されているか確認してください</li>
         </ul>
       </section>
-      <footer class="footer mt-auto text-center">
+      <footer class="footer mt-auto text-center" id="footer">
         <p class="text-muted my-0">&copy; 2019 Yamaoka-Kitaguchi Laboratory</p><a class="text-muted small my-0" href="https://github.com/yamaoka-kitaguchi-lab/workshop.net.ict.e.titech.ac.jp">Powered by GitHub Pages</a>
       </footer>
     </div>
@@ -165,4 +166,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   <script src="/js/updatelog.js"></script>
+  <script src="/js/printout.js"></script>
 </html>
