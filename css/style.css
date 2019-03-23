@@ -19,8 +19,33 @@ h2 {
   border-bottom: 2px dashed;
 }
 
+mark {
+  padding: 0;
+  font-weight: 400;
+}
+
+mark.yellow {
+  background: linear-gradient(rgba(255,255,255,0) 60%, #ffffa9 100%);
+}
+
+mark.orange {
+  background: linear-gradient(rgba(255,255,255,0) 60%, #ffe0c1 100%);
+}
+
+mark.green {
+  background: linear-gradient(rgba(255,255,255,0) 60%, #e0ffc2 100%);
+}
+
+mark.blue {
+  background: linear-gradient(rgba(255,255,255,0) 60%, #c2e0ff 100%);
+}
+
 .underline {
   text-decoration: underline;
+}
+
+.bold {
+  font-weight: 400;
 }
 
 table#announce_table > tbody > tr > th {
