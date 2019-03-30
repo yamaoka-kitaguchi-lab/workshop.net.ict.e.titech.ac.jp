@@ -1,4 +1,4 @@
-const hide_elements = $('#announce,#print_program,#detail,#update,#footer');
+const hide_elements = $('#tech-chan-copyright,#announce,#print_program,#detail,#update,#footer');
 const bg_image = $('body').css('background-image');
 
 $('#print_program').click(() => {
