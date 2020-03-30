@@ -37,7 +37,13 @@ h5 {
 
 div.alert-danger >a, div.alert-danger > p > a {
   color: #e36270;
-  font-weight: bold;
+  border-bottom: 1px dotted;
+}
+
+div.alert-danger >a:hover, div.alert-danger > p > a:hover {
+  text-decoration: none;
+  font-weight: 400;
+  border-bottom: 2px dotted;
 }
 
 h2 {
