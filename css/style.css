@@ -46,6 +46,12 @@ div.alert-danger >a:hover, div.alert-danger > p > a:hover {
   border-bottom: 2px dotted;
 }
 
+.now-here {
+  border: 2px dashed #e9848f;
+  border-radius: .25rem;
+  padding: 15px 0 15px 0;
+}
+
 h2 {
   border-bottom: 2px dashed;
 }
